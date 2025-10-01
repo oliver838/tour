@@ -6,6 +6,7 @@ import { Tourcard } from './Tourcard'
 
 export const Tours = () => {
     const [data,setData] = useState([])
+    
     useEffect(()=>{
         getData(setData)
     },[])

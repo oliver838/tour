@@ -10,16 +10,20 @@ body{
   background-color: rgba(21, 41, 58, 1);
   min-height: 100vh;
 }
+#root{
+  height: 100vh !important;
+}
 .container{
   margin: 0 auto;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
   min-width: 100%;
   gap: 3rem;
   --bs-gutter-x: 0 !important;
+  height: 100% !important;
 
   
 }
@@ -54,4 +58,29 @@ body{
   height: 200px; /* vagy 250px */
   object-fit: cover;
 
+}
+.ModalImg{
+    width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px; /* vagy 250px */
+  object-fit: cover;
+}
+.alma{
+  background-color: rgba(21, 41, 58, 1) !important;
+  color: rgba(255, 254, 245, 0.911);
+  
+  
+}
+.modal-content{
+  border-radius: 10px !important;
+  box-shadow: 0 0 15px 2px rgba(255, 254, 245, 0.911);
+}
+.modal1{
+  border-radius: 10px !important;
+}
+
+.img-container{
+  padding: 0 !important;
+  
 }
